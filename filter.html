@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+
+        }
+        #stuff{
+            display:flex;
+            flex-direction:row;
+            justify-content: center;
+            align-content:center;
+            width:100%;
+            height:100%;
+            flex-wrap: wrap;
+            gap:10px;
+        }
+        .IMG{
+            width:400px;
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="stuff">
+    <img class="IMG" src="./mount.jpg" style="filter:blur(0)">
+    <img class="IMG" src="./mount.jpg" style="filter:blur(3px)">
+    <img class="IMG" src="./mount.jpg" style="filter:grayscale(100%)">
+    <img class="IMG" src="./mount.jpg" style="filter:brightness(0)">
+    <img class="IMG" src="./mount.jpg" style="filter:brightness(1)">
+    <img class="IMG" src="./mount.jpg" style="filter:brightness(.5)">
+    <img class="IMG" src="./mount.jpg" style="filter:brightness(35%)">
+    <img class="IMG" src="./mount.jpg" style="filter:contrast(180%)">
+    <img class="IMG" src="./mount.jpg" style="filter:grayscale(60%)">
+    <img class="IMG" src="./mount.jpg" style="filter:opacity(100%)">
+    <img class="IMG" src="./mount.jpg" style="filter:opacity(0%)">
+    <img class="IMG" src="./mount.jpg" style="filter:opacity(50%)">
+    <img class="IMG" src="./mount.jpg" style="filter:saturate(150%)">
+    <img class="IMG" src="./mount.jpg" style="filter:grayscale(70%)">
+    <img class="IMG" src="./mount.jpg" style="filter:sepia(100%)">
+    </div>
+    
+</body>
+</html>
